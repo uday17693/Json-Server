@@ -1,0 +1,88 @@
+{
+  "form": {
+    "formName": "Eform",
+    "formTitle": "This is the first Dynamic Form created in React",
+    "Steps": [
+      {
+        "stepName": "basicDetails",
+        "stepNo": 1,
+        "stepTitle": "Basic Details",
+        "Blocks": [
+          {
+            "blockName": "generalInfo",
+            "blockNo": 1,
+            "key": 1,
+            "blockTitle": "Genaral Information",
+            "elements": [
+              {
+                "elementName": "firstName",
+                "elementNo": "1",
+                "elementTitle": "First Name",
+                "elementType": "textbox"
+              },
+              {
+                "elementName": "lastName",
+                "elementNo": "2",
+                "elementTitle": "Last Name",
+                "elementType": "textbox"
+              }
+            ]
+          },
+          {
+            "blockName": "contactDetails",
+            "blockNo": 2,
+            "key": 2,
+            "blockTitle": "Contact Details",
+            "elements": [
+              {
+                "elementName": "mobileNumber",
+                "elementNo": "1",
+                "elementTitle": "Mobile Number",
+                "elementType": "textbox"
+              },
+              {
+                "elementName": "email",
+                "elementNo": "2",
+                "elementTitle": "Email",
+                "elementType": "textbox"
+              },
+              {
+                "elementName": "address",
+                "elementNo": "3",
+                "elementTitle": "Address",
+                "elementType": "textbox"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stepName": "educationDetails",
+        "stepNo": 2,
+        "stepTitle": "Education Details",
+        "Blocks": [
+          {
+            "blockName": "generalInfo",
+            "blockNo": 1,
+            "key": 1,
+            "blockTitle": "Genaral Information",
+            "elements": [
+              {
+                "elementName": "schoolName",
+                "elementNo": "1",
+                "elementTitle": "School Name",
+                "elementType": "textbox"
+              },
+              {
+                "elementName": "matriculationPercentage",
+                "elementNo": "2",
+                "elementTitle": "Matriculation Percentage",
+                "elementType": "textbox"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
